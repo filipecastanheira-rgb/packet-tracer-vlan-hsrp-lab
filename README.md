@@ -1,10 +1,23 @@
 # Packet Tracer Lab — VLANs, EtherChannel, HSRP, DHCP Snooping & Port Security
 
-[![Open Lab](https://img.shields.io/badge/Open%20Lab-.pkt-blue)](lab.pkt)
-[![Device Configs](https://img.shields.io/badge/Folder-configs%2F-blue)](configs/)
-[![Documentation](https://img.shields.io/badge/Folder-docs%2F-lightgrey)](docs/)
-[![Validation Outputs](https://img.shields.io/badge/Folder-validation%2F-green)](validation/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+## Quick Navigation
+
+[![Open Lab](https://img.shields.io/badge/Open%20Lab-.pkt-blue)](packet-tracer-vlan-hsrp-lab.pkt)
+[![Docs Folder](https://img.shields.io/badge/Folder-Docs%2F-lightgrey)](Docs/)
+[![Validation Outputs](https://img.shields.io/badge/Folder-Validation%2F-green)](Validation/)
+
+### Device Configurations
+[![dhcpServer+GW](https://img.shields.io/badge/Config-dhcpServer_GW.txt-blue)](Docs/dhcpServer_GW.txt)
+[![Router1](https://img.shields.io/badge/Config-Router1.txt-blue)](Docs/Router1.txt)
+[![Router2](https://img.shields.io/badge/Config-Router2.txt-blue)](Docs/Router2.txt)
+[![ISP](https://img.shields.io/badge/Config-ISP.txt-blue)](Docs/ISP.txt)
+[![R_Deleg](https://img.shields.io/badge/Config-R_Deleg.txt-blue)](Docs/R_Deleg.txt)
+[![SW_Sede1](https://img.shields.io/badge/Config-SW_Sede1.txt-blue)](Docs/SW_Sede1.txt)
+[![SW_Sede2](https://img.shields.io/badge/Config-SW_Sede2.txt-blue)](Docs/SW_Sede2.txt)
+[![Switch3](https://img.shields.io/badge/Config-Switch3.txt-blue)](Docs/Switch3.txt)
+[![Switch4](https://img.shields.io/badge/Config-Switch4.txt-blue)](Docs/Switch4.txt)
+[![SW_Deleg](https://img.shields.io/badge/Config-SW_Deleg.txt-blue)](Docs/SW_Deleg.txt)
+
 
 ## 1. Overview
 
