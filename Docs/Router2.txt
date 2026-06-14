@@ -1,0 +1,60 @@
+Router2#show running-config
+Building configuration...
+
+Current configuration : 956 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Router2
+!
+enable secret 5 $1$mERr$/Q/mbs3O9oHsKR7rNG4e81
+!
+ip cef
+no ipv6 cef
+!
+username teste privilege 15 secret 5 $1$mERr$4dpRATIgxQacPVK0CfNV4/
+!
+license udi pid CISCO2901/K9 sn FTX15247RNT-
+!
+ip domain-name iefp.pt
+!
+spanning-tree mode pvst
+!
+interface GigabitEthernet0/0
+ ip address 5.5.5.13 255.255.255.240
+ duplex auto
+ speed auto
+ standby 1 ip 5.5.5.15
+ standby 1 priority 90
+ standby 1 preempt
+!
+interface GigabitEthernet0/1
+ ip address 5.5.5.18 255.255.255.240
+ duplex auto
+ speed auto
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+ip classless
+ip route 0.0.0.0 0.0.0.0 5.5.5.30
+!
+ip flow-export version 9
+!
+banner motd ^C Bem-vindo ao Router2 - Acesso restrito! ^C
+!
+line con 0
+ password 123
+ login
+!
+line aux 0
+!
+line vty 0 4
+ login local
+ transport input ssh
+!
+end

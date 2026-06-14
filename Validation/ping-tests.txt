@@ -1,0 +1,60 @@
+========================================
+ VALIDATION OUTPUTS — ping-tests.txt
+========================================
+
+--- Inter-VLAN Routing ---
+
+PC0 (VLAN 110, 10.0.0.1) → Gateway VLAN 110 (10.0.0.30)
+Result: SUCCESS
+
+PC0 (VLAN 110) → Gateway VLAN 120 (10.0.0.62)
+Result: SUCCESS
+
+--- Internet Connectivity ---
+
+PC0 (VLAN 110) → ISP (5.5.5.30)
+Result: SUCCESS
+
+PC0 (VLAN 110) → Web Server (5.5.5.202)
+Result: SUCCESS
+
+--- HSRP ---
+
+Router1 → ISP (5.5.5.30)
+Result: SUCCESS (100%)
+
+Router2 → ISP (5.5.5.30)
+Result: SUCCESS (80% — first packet lost during ARP)
+
+ISP → HSRP Virtual IP (5.5.5.15)
+Result: SUCCESS
+
+--- Remote Branch ---
+
+R_Deleg → dhcpServer+GW (192.168.200.2)
+Result: SUCCESS
+
+R_Deleg → HQ internal (10.0.0.30)
+Result: SUCCESS
+
+Laptop_DHCP_Cliente → received IP via DHCP relay
+IP Address: 192.168.100.1
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.100.254
+DNS Server: 8.8.8.8
+Result: SUCCESS
+
+--- DHCP Snooping ---
+
+DHCP_Server_Forjado (Fa0/1 — untrusted port):
+DHCP offers blocked by snooping policy.
+Result: BLOCKED (as expected)
+
+--- Port Security ---
+
+SW_Deleg Fa0/2 (Laptop_DHCP_Cliente):
+Max MACs: 1
+Mode: Sticky
+Violation action: Shutdown
+Learned MAC: 00E0.F90D.7881
+Result: CONFIGURED
