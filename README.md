@@ -17,7 +17,7 @@
 [![Switch3](https://img.shields.io/badge/Config-Switch3.txt-blue)](Docs/Switch3.txt)
 [![Switch4](https://img.shields.io/badge/Config-Switch4.txt-blue)](Docs/Switch4.txt)
 [![SW_Deleg](https://img.shields.io/badge/Config-SW_Deleg.txt-blue)](Docs/SW_Deleg.txt)
-
+[![Topology Diagram](https://img.shields.io/badge/View-topology.png-lightgrey)](Docs/topology.png)
 
 ## 1. Overview
 
