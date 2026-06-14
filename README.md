@@ -5,7 +5,6 @@
 [![Open Lab](https://img.shields.io/badge/Open%20Lab-.pkt-blue)](packet-tracer-vlan-hsrp-lab.pkt)
 [![Docs Folder](https://img.shields.io/badge/Folder-Docs%2F-lightgrey)](Docs/)
 [![Validation Outputs](https://img.shields.io/badge/Folder-Validation%2F-green)](Validation/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ### Device Configurations
 [![dhcpServer+GW](https://img.shields.io/badge/Config-dhcpServer_GW.txt-blue)](Docs/dhcpServer_GW.txt)
