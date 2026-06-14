@@ -1,5 +1,13 @@
 # Packet Tracer Lab — VLANs, EtherChannel, HSRP, DHCP Snooping & Port Security
 
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-8.x-blue)
+![Cisco IOS](https://img.shields.io/badge/Cisco-IOS%20(2960%2C%203560%2C%202901)-lightgrey)
+![Topology](https://img.shields.io/badge/Topology-L2%2FL3%20Enterprise-blueviolet)
+![Redundancy](https://img.shields.io/badge/HSRP-Enabled-critical)
+![Security](https://img.shields.io/badge/Security-DHCP%20Snooping%20%7C%20Port%20Security-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ## 1. Overview
 
 This project was developed as part of UC01478 — *Computer Network Configuration*, within the CET in Cybersecurity and Network Infrastructure at IEFP (March 2026).
